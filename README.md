@@ -11,18 +11,18 @@
 假设 `wait_assets` 文件夹和 `Original_assets` 文件夹中的文件如下：
 
 **wait_assets/**
-- UI_CMN_TabTitle_BonusSong-resources.assets-4230.png
-- OtherFile-resources.assets-4231.png
+- UI_CMN_TabTitle_BonusSong-resources.assets-**4230**.png
+- OtherFile-resources.assets-**4231**.png
 
 **Original_assets/**
-- UI_CMN_TabTitle_BonusSong-resources.assets-4344.png
-- OtherFile-resources.assets-4345.png
+- UI_CMN_TabTitle_BonusSong-resources.assets-**4344**.png
+- OtherFile-resources.assets-**4345**.png
 
 脚本运行后，会在 `output` 文件夹中生成如下文件：
 
 **output/**
-- UI_CMN_TabTitle_BonusSong-resources.assets-4344.png
-- OtherFile-resources.assets-4345.png
+- UI_CMN_TabTitle_BonusSong-resources.assets-**4344**.png
+- OtherFile-resources.assets-**4345**.png
 
 ## 贡献
 欢迎任何形式的贡献。如果你发现了问题或者有改进建议，请提交issue或pull request。
