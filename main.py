@@ -6,6 +6,12 @@ wait_assets_folder = 'wait_assets'
 original_assets_folder = 'Original_assets'
 output_folder = 'output'
 
+# 确保文件夹存在
+for folder in [wait_assets_folder, original_assets_folder, output_folder]:
+    if not os.path.exists(folder):
+        os.makedirs(folder)
+        print(f"文件夹 '{folder}' 已创建。")
+
 # 检查输出文件夹是否有内容
 if os.path.exists(output_folder) and os.listdir(output_folder):
     delete_confirm = input(f"输出文件夹 '{output_folder}' 中已有内容，是否删除？(y/n): ")
